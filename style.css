@@ -197,4 +197,85 @@ a{
 
 .feature__link:hover{
     border-bottom: 1px solid var(--primary);
+
+}
+
+/* review */
+#reviews{
+    background-color: #f6f6f6
+    ;
+}
+
+.reviews__row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.reviews__title{
+    font-size: 32px;
+}
+
+.reviews__para{
+    max-width: 600px;
+    line-height: 1.5;
+
+}
+
+.review{
+    display: flex;
+    max-width: 700px;
+    height: 300px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 32px;
+}
+
+.review__text,
+.review__credit{
+    width: 50%;
+}
+
+.review__text{
+    background-color: var(--primary);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+}
+
+.review__credit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    background-color: white;
+}
+.review__image{
+    width: 64px;
+    height: 64px;
+    border-radius: 9999px;
+}
+
+.review__rating{
+    color: #fcc470;
+    font-size: 8px;
+    margin-top: 4px;
+}
+.review__name{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.review__occupation{
+    font-size: 12px;
 }
